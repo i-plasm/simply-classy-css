@@ -23,7 +23,7 @@ For each color scheme, light or dark mode (or both) are supported.
 
 ### Set-up
 
-1. Check out the [Gallery](https://i-plasm.github.io/simply-classy-css/docs/site/gallery.html) and select your preferred CSS. Download it.
+1. Check out the [Gallery](https://i-plasm.github.io/simply-classy-css/site/gallery.html) and select your preferred CSS. Download it.
 1. Configure your software/environment to use that CSS.
 1. Check the required fonts listed in the screenshot and install any missing ones. All fonts are free Google fonts, and can be obtained from: [https://fonts.google.com/](https://fonts.google.com/).
 1. After installing the fonts, restart the software where you will be using the CSS.
@@ -46,7 +46,7 @@ __Freeplane Tip!__ You can use the [**BoxedParagraph**](scripts/boxedParagraph.g
 
 ## Screenshots
 
-__Check the complete Gallery at <a href="https://i-plasm.github.io/simply-classy-css/docs/site/gallery.html">the SimplyClassyCSS website</a>__
+__Check the complete Gallery at <a href="https://i-plasm.github.io/simply-classy-css/site/gallery.html">the SimplyClassyCSS website</a>__
 
 ## License
 
