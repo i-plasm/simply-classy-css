@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SimplyClassyCSS - A collection of beautiful and classy
+  CSS styles suitable for simple renderers such as Java Swing's</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="site/style.css">
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body, h1, h2, h3, h4, h5 {
+  font-family: "Raleway", sans-serif
+}
+
+.w3-third img {
+  margin-bottom: -6px;
+  opacity: 1;
+  cursor: pointer
+}
+
+.w3-third img:hover {
+  opacity: 1
+}
+
+.w3-half img {
+  margin-bottom: -6px;
+  opacity: 1;
+  cursor: pointer
+}
+
+.w3-half img:hover {
+  opacity: 1
+}
+
+.w3-threequarter img {
+  margin-bottom: -6px;
+  opacity: 1;
+  cursor: pointer
+}
+
+.w3-threequarter img:hover {
+  opacity: 1
+}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width: 1414px">
+
+  <!-- Sidebar/menu -->
+  <nav
+    class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
+    style="z-index: 3; width: 300px; font-weight: bold" id="mySidebar">
+    <br>
+    <h3 class="w3-padding-64 w3-center">
+      <a href="#" class="w3-bar-item w3-button"><b>SimplyClassyCSS</b></a>
+    </h3>
+    <a href="javascript:void(0)" onclick="w3_close()"
+      class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a> <a
+      href="site/gallery.html" onclick="w3_close()"
+      class="w3-bar-item w3-button">GALLERY</a> <a href="#usage"
+      onclick="w3_close()" class="w3-bar-item w3-button">USAGE</a> <a
+      href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="https://github.com/i-plasm/simply-classy-css"
+      onclick="w3_close()" class="w3-bar-item w3-button">GITHUB</a>
+
+
+  </nav>
+
+  <!-- Top menu on small screens -->
+  <header
+    class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+    <span class="w3-left w3-padding">SimplyClassyCSS</span> <a
+      href="javascript:void(0)" class="w3-right w3-button w3-white"
+      onclick="w3_open()">☰</a>
+  </header>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-animate-opacity"
+    onclick="w3_close()" style="cursor: pointer" title="close side menu"
+    id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left: 300px">
+
+    <!-- Push down content on small screens -->
+    <div class="w3-hide-large" style="margin-top: 83px"></div>
+
+    <!-- Photo grid -->
+
+    <div class="w3-row">
+      <div class="w3-half">
+        <img loading="lazy" src="site/gallery/spacious-light-nord.png"
+          style="max-width: 100%" onclick="onClick(this)">
+      </div>
+      <div class="w3-half">
+        <img loading="lazy" src="site/gallery/spacious-dark-rose.png"
+          style="max-width: 100%" onclick="onClick(this)">
+      </div>
+
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" style="padding-top: 0"
+      onclick="this.style.display='none'">
+      <span class="w3-button w3-black w3-xlarge w3-display-topright">close
+        ×</span>
+      <div
+        class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption"></p>
+      </div>
+    </div>
+
+    <!-- Browse Gallery -->
+    <div class="w3-center w3-padding-32">
+      <div class="w3-bar" id="gallery">
+        <br> <br> <br> <a href="site/gallery.html"
+          class="w3-bar-item w3-black w3-button">VISIT COMPLETE
+          GALLERY</a>
+      </div>
+    </div>
+
+    <!-- Usage section -->
+    <div
+      class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32"
+      id="usage">
+
+      <h2>Usage</h2>
+      <p>
+        <em>SimplyClassyCSS</em> features different styles (e.g
+        “Spacious”).
+      </p>
+      <p>For each style, different color schemes may be supported
+        (e.g “Standard”, “Gruvbox”).</p>
+      <p>For each color scheme, light or dark mode (or both) are
+        supported.</p>
+
+      <div class="w3-content w3-justify" style="max-width: 600px">
+
+        <h3>Set-up</h3>
+        <ol type="1">
+          <li>Check out the <a
+            href="https://i-plasm.github.io/simply-classy-css/docs/site/gallery.html">Gallery</a>
+            and select your preferred CSS. Download it.
+          </li>
+          <li>Configure your software/environment to use that CSS.
+          </li>
+          <li>Check the required fonts listed in the screenshot and
+            install any missing ones. All fonts are free Google fonts,
+            and can be obtained from: <a
+            href="https://fonts.google.com/">https://fonts.google.com/</a>.
+          </li>
+          <li>After installing the fonts, restart the software
+            where you will be using the CSS.</li>
+        </ol>
+        <h3>Styled Paragraphs and Sections</h3>
+        <p>
+          When using any of the <strong>SimplyClassyCSS</strong> styles,
+          text inside special
+          <code>&lt;span&gt;</code>
+          tags becomes highlighted. Additionally, special
+          <code>&lt;p&gt;</code>
+          tags draw styled boxes around your paragraphs. Very useful for
+          studying, analyzing or creating emphasis on texts. The syntax
+          is:
+        </p>
+        <p>
+          <img src="git-styled-paragraphs-sections.png"
+            alt="Styled Paragraphs and Section" style="max-width: 100%" />
+        </p>
+
+        <h4>Extra: Automatic styling scripts</h4>
+        <p>
+          The groovy scripts <a href="../scripts/spanHighlighter.groovy"><strong>SpanHighlighter</strong></a>
+          and <a href="../scripts/boxedParagraph.groovy"><strong>BoxedParagraph</strong></a>
+          wrap selected text in a
+          <code>JTextComponent</code>
+          (Java Swing) with the desired syntax.
+        </p>
+        <p>To use in freeplane: after setting up the CSS style,
+          install the scripts, select the text you’d like to emphasize,
+          and call the desired script: the appropriate tags will be
+          inserted automatically. A brief explanation on how to use each
+          script:</p>
+
+        <div class="w3-row-padding" style="margin: 0 -16px">
+          <div class="w3-half w3-margin-bottom">
+            <ul class="w3-ul w3-white w3-center">
+              <li class="w3-black w3-xlarge w3-padding-32">SpanHighlighter
+                Script</li>
+              <li class="w3-padding-16"><strong>Freeplane
+                  Tip!</strong> You can use the <a
+                href="../scripts/spanHighlighter.groovy"><strong>SpanHighlighter</strong></a>
+                script to <strong><em>automatically
+                    surround the text you’d like to highlight</em></strong> with <code>&lt;span
+                  class="..."&gt;my_text&lt;/span&gt;</code>. The default is
+                yellow (<code>y</code>). You can change the color simply
+                by changing the <code>class</code> attribute. The script
+                gets installed in the menu <code>Format ->
+                  Highlight -> Span Highlighter</code>. <em>Suggestion:
+                  for quick access, assign the <code>ctrl + shift
+                    + L</code> shortcut to the script. <a href="$web">CLICK
+                    HERE FOR THE FULL GUIDE</a>
+              </em></li>
+
+              <li class="w3-light-grey w3-padding-24"><a
+                href="../scripts/spanHighlighter.groovy"><button
+                    class="w3-button w3-white w3-padding-large">Download
+                    script</button></a></li>
+            </ul>
+          </div>
+
+          <div class="w3-half w3-margin-bottom">
+            <ul class="w3-ul w3-white w3-center">
+              <li class="w3-black w3-xlarge w3-padding-32">BoxedParagraph
+                Script</li>
+              <li class="w3-padding-16"><strong>Freeplane
+                  Tip!</strong> You can use the <a
+                href="../scripts/boxedParagraph.groovy"><strong>BoxedParagraph</strong></a>
+                script to <strong><em>automatically
+                    surround the paragraph you’d like to enclose in a
+                    box</em></strong> with <code>&lt;p
+                  class="..."&gt;my_paragraph&lt;/p&gt;</code>. The default is
+                dotted box (<code>b-do</code>). You can change it by
+                modifying the <code>class</code> attribute. The script
+                gets installed in the menu <code>Format ->
+                  Highlight -> Boxed Paragraph</code>. <em>Suggestion: for
+                  quick access, assign the <code>ctrl + shift + P</code>
+                  shortcut to the script. <a href="$web">CLICK HERE
+                    FOR THE FULL GUIDE</a>
+              </em></li>
+
+              <li class="w3-light-grey w3-padding-24"><a
+                href="../scripts/boxedParagraph.groovy"><button
+                    class="w3-button w3-white w3-padding-large">Download
+                    script</button></a></li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-light-grey" id="about">
+      <div class="w3-row-padding">
+        <div class="w3-third">
+          <h3>SimplyClassyCSS</h3>
+          <p>A collection of beautiful and classy CSS styles
+            suitable for simple renderers such as Java Swing's.</p>
+        </div>
+
+        <div class="w3-third">
+          <h3>FEATURES</h3>
+          <ul>
+            <li>Beauty</li>
+            <li>Readability</li>
+            <li>Fonts chosen for the best displays in Java Swing</li>
+            <li>Variety of styles and color schemes. Light and dark
+              modes</li>
+            <li>Extra 1: special tag classes for highlighting and
+              emphasizing Text</li>
+            <li>Extra 2: groovy scripts for automatic
+              highlighting/emphasizing</li>
+          </ul>
+        </div>
+
+        <div class="w3-third">
+          <h3>IdeaPlasm</h3>
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Learning</span>
+            <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Creativity</span>
+            <span class="w3-tag w3-black w3-margin-bottom">Information
+              Management</span> <span
+              class="w3-tag w3-deep-purple w3-small w3-margin-bottom">Tools</span>
+          </p>
+          <p>
+            <a href="https://ideaplasm.com/"><img
+              src="site/images/ideaplasm-300x114.png" alt="IdeaPlasm"
+              style="max-width: 100%" /></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="w3-black w3-center w3-padding-24">
+      <p>
+        SimplyClassyCSS, except logos and otherwise noted, is licensed
+        under a BSD-3-Clause license, and it is free to use according to
+        its terms. See <a
+          href="https://github.com/i-plasm/simply-classy-css">information
+          on licensing</a>.
+      </p>
+      <p>Copyright © 2023 B Barbosa. All rights reserved.</p>
+    </div>
+
+
+
+    <!-- End page content -->
+  </div>
+
+  <script>
+			// Script to open and close sidebar
+			function w3_open() {
+				document.getElementById("mySidebar").style.display = "block";
+				document.getElementById("myOverlay").style.display = "block";
+			}
+
+			function w3_close() {
+				document.getElementById("mySidebar").style.display = "none";
+				document.getElementById("myOverlay").style.display = "none";
+			}
+
+			// Modal Image Gallery
+			function onClick(element) {
+				document.getElementById("img01").src = element.src;
+				document.getElementById("modal01").style.display = "block";
+				var captionText = document.getElementById("caption");
+				captionText.innerHTML = element.alt;
+			}
+		</script>
+
+
+</body>
+</html>
