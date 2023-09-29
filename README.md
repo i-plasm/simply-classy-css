@@ -40,13 +40,13 @@ The groovy scripts [**SpanHighlighter**](scripts/spanHighlighter.groovy) and [**
 
 To use in freeplane: after setting up the CSS style, install the scripts, select the text you’d like to emphasize, and call the desired script: the appropriate tags will be inserted automatically. A brief explanation on how to use each script:
 
-<p style="background-color:#F0EAE1; padding:15px;">__Freeplane Tip!__ You can use the [**SpanHighlighter**](scripts/spanHighlighter.groovy) script to ___automatically surround the text you'd like to highlight___ with `<span class="...">my_text</span>`. The default is yellow. You can change the color simply by changing the `class` attribute. The script gets installed in the menu `Format -> Highlight -> Span Highlighter`. _Suggestion: for quick access, assign the `ctrl + shift + L` shortcut to the script_. [CLICK HERE FOR THE FULL GUIDE]($web)</p>
+__Freeplane Tip!__ You can use the [**SpanHighlighter**](scripts/spanHighlighter.groovy) script to ___automatically surround the text you'd like to highlight___ with `<span class="...">my_text</span>`. The default is yellow. You can change the color simply by changing the `class` attribute. The script gets installed in the menu `Format -> Highlight -> Span Highlighter`. _Suggestion: for quick access, assign the `ctrl + shift + L` shortcut to the script_. [CLICK HERE FOR THE FULL GUIDE]($web)
 
-<p style="background-color:#F0EAE1; padding:15px;">__Freeplane Tip!__ You can use the [**BoxedParagraph**](scripts/boxedParagraph.groovy) script to ___automatically surround the paragraph you'd like to enclose in a box___ with `<p class="...">my_paragraph</p>`. The default is dotted box. You can change it by modifying the `class` attribute.  The script gets installed in the menu `Format -> Highlight -> Boxed Paragraph`. _Suggestion: for quick access, assign the `ctrl + shift + P` shortcut to the script_. [CLICK HERE FOR THE FULL GUIDE]($web)</p>
+__Freeplane Tip!__ You can use the [**BoxedParagraph**](scripts/boxedParagraph.groovy) script to ___automatically surround the paragraph you'd like to enclose in a box___ with `<p class="...">my_paragraph</p>`. The default is dotted box. You can change it by modifying the `class` attribute.  The script gets installed in the menu `Format -> Highlight -> Boxed Paragraph`. _Suggestion: for quick access, assign the `ctrl + shift + P` shortcut to the script_. [CLICK HERE FOR THE FULL GUIDE]($web)
 
 ## Screenshots
 
-<p style="background-color:#F0EAE1; padding:15px;">__Check the complete Gallery at <a href="https://i-plasm.github.io/simply-classy-css/docs/site/gallery.html">the SimplyClassyCSS website</a>__</p>
+__Check the complete Gallery at <a href="https://i-plasm.github.io/simply-classy-css/docs/site/gallery.html">the SimplyClassyCSS website</a>__
 
 ## License
 
