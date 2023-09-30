@@ -1,6 +1,6 @@
 <map version="freeplane 1.9.8">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1695956486152" STYLE="bubble" MAX_WIDTH="20 cm" BORDER_WIDTH="5.1 px"><richcontent TYPE="NODE">
+<node FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1696115493954" STYLE="bubble" MAX_WIDTH="20 cm" BORDER_WIDTH="5.1 px"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -32,7 +32,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font NAME="Monospaced" SIZE="18" ITALIC="false"/>
 <hook NAME="MapStyle">
@@ -298,27 +297,27 @@ sub {
 /* End of other elements */
 
 /* Beginning of custom highlighting, emphasizing */
-span.y {
+span.yellow {
   background-color: #c78f1f;
 }
 
-span.b {
+span.blue {
   background-color: #000099;
 }
 
-span.p {
+span.purple {
   background-color: #9900cc;
 }
 
-span.g {
+span.green {
   background-color: #009900;
 }
 
-span.r {
+span.red {
   background-color: #ff0000;
 }
 
-p.b-so {
+p.blue-solid {
   font-style: regular;
   padding: 5px;
   border: 3px;
@@ -326,7 +325,7 @@ p.b-so {
   border-color: #253bff;
 }
 
-p.b-da {
+p.blue-dashed {
   font-style: regular;
   padding: 5px;
   border: 3px;
@@ -334,7 +333,7 @@ p.b-da {
   border-color: #253bff;
 }
 
-p.b-do {
+p.blue-dotted {
   font-style: regular;
   padding: 5px;
   border: 3px;
@@ -342,7 +341,7 @@ p.b-do {
   border-color: #253bff;
 }
 
-p.b-fu {
+p.blue-full {
   font-style: regular;
   color: white;
   padding: 5px;
@@ -351,7 +350,7 @@ p.b-fu {
 
 /* End of custom highlighting, emphasizing */</hook>
 </stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<stylenode LOCALIZED_TEXT="defaultstyle.floating" ID="ID_70916860">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
@@ -435,12 +434,12 @@ __Table. Languages__
 
 ##### Styled Paragraphs and Sections
 
-&lt;p class=&quot;b-do&quot;&gt; I&apos;m a &lt;span class=&quot;b&quot;&gt;paragraph surrounded by a &lt;span class=&quot;r&quot;&gt;box&lt;/span&gt;&lt;/span&gt; and &lt;span class=&quot;y&quot;&gt; full&lt;span class=&quot;g&quot;&gt;-of-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;color&lt;/span&gt;&lt;/span&gt;!
+&lt;p class=&quot;blue-dotted&quot;&gt;I&apos;m a &lt;span class=&quot;blue&quot;&gt;paragraph surrounded by a&lt;/span&gt; &lt;span class=&quot;red&quot;&gt;box&lt;/span&gt; and &lt;span class=&quot;yellow&quot;&gt;full&lt;/span&gt;&lt;span class=&quot;green&quot;&gt;-of-&lt;/span&gt;&lt;span class=&quot;purple&quot;&gt;color&lt;/span&gt;!
 &lt;/p&gt;
 
 ###### Learn more
 
-&lt;sub&gt; How-tos and updates: [https://i-plasm.github.io/simply-classy-css](https://i-plasm.github.io/simply-classy-css)
+&lt;sub&gt; How-tos and updates: [https://github.com/i-plasm/simply-classy-css](https://github.com/i-plasm/simply-classy-css)
 &lt;/sub&gt;
 
 &lt;sub&gt; IdeaPlasm learning and information management tools and articles: [https://ideaplasm.com/](https://ideaplasm.com/)

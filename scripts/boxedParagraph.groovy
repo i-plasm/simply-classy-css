@@ -4,9 +4,9 @@
  * special tags and classes for highlighting and emphasizing text.
  * BoxedParagraph automatically surrounds the paragraph you'd like to enclose in a box with 
  * <p class="...">my_paragraph</p> 
- * The default is dotted box (`b-do`). You can change it by modifying 
- * the `class` attribute (see the "Syntax" table for the options - for instance `b-do` stands for "dotted box",
- * `b-so` is "solid box", etc.).
+ * The default is blue dotted box (`blue-dotted`). You can change it by modifying 
+ * the `class` attribute (see the "Syntax" table for the options - for instance to `blue-dotted`,
+ * `blue-solid`, etc.).
  *
  * More information on usage: https://github.com/i-plasm/simply-classy-css 
 */
@@ -34,7 +34,7 @@ def static void highlight() {
             return
         }
 
-        editor.replaceSelection("<p class=\"b-do\">" + editor.getSelectedText() + "</p>")
+        editor.replaceSelection("<p class=\"blue-dotted\">" + editor.getSelectedText() + "</p>")
 
 
     }

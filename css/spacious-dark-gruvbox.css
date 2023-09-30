@@ -242,27 +242,27 @@ sub {
 /* End of other elements */
 
 /* Beginning of custom highlighting, emphasizing */
-span.y {
+span.yellow {
   background-color: #c78f1f;
 }
 
-span.b {
+span.blue {
   background-color: #000099;
 }
 
-span.p {
+span.purple {
   background-color: #9900cc;
 }
 
-span.g {
+span.green {
   background-color: #009900;
 }
 
-span.r {
+span.red {
   background-color: #ff0000;
 }
 
-p.b-so {
+p.blue-solid {
   font-style: regular;
   padding: 5px;
   border: 3px;
@@ -270,7 +270,7 @@ p.b-so {
   border-color: #83a598;
 }
 
-p.b-da {
+p.blue-dashed {
   font-style: regular;
   padding: 5px;
   border: 3px;
@@ -278,7 +278,7 @@ p.b-da {
   border-color: #83a598;
 }
 
-p.b-do {
+p.blue-dotted {
   font-style: regular;
   padding: 5px;
   border: 3px;
@@ -286,7 +286,7 @@ p.b-do {
   border-color: #83a598;
 }
 
-p.b-fu {
+p.blue-full {
   font-style: regular;
   color: white;
   padding: 5px;

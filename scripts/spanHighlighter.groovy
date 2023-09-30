@@ -4,8 +4,8 @@
  * special tags and classes for highlighting and emphasizing text.
  * SpanHighlighter automatically surrounds the text you'd like to highlight with 
  * <span class="...">my_text</span>
- * The default is yellow (`y`). You can change the color simply by changing the `class` attribute (see the
- * "Syntax" table for the options - for instance `y` stands for "yellow", `b` is "blue", etc.).
+ * The default is yellow (`yellow`). You can modify the color simply by changing the `class` attribute (see the
+ * "Syntax" table for the options - for instance `yellow`, `blue`, etc.).
  * 
  * More information on usage: https://github.com/i-plasm/simply-classy-css 
 */
@@ -33,7 +33,7 @@ def static void highlight() {
             return
         }
 
-        editor.replaceSelection("<span class=\"y\">" + editor.getSelectedText() + "</span>")
+        editor.replaceSelection("<span class=\"yellow\">" + editor.getSelectedText() + "</span>")
 
 
     }

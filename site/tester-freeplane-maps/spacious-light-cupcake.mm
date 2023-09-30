@@ -1,6 +1,6 @@
 <map version="freeplane 1.9.8">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1695956507907" STYLE="bubble" MAX_WIDTH="20 cm" BORDER_WIDTH="5.1 px"><richcontent TYPE="NODE">
+<node FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1696115430428" STYLE="bubble" MAX_WIDTH="20 cm" BORDER_WIDTH="5.1 px"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -32,8 +32,8 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+<font NAME="Monospaced" SIZE="18" ITALIC="false"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false"/>
 
@@ -297,27 +297,27 @@ sub {
 /* End of other elements */
 
 /* Beginning of custom highlighting, emphasizing */
-span.y {
+span.yellow {
   background-color: #FFFF00;
 }
 
-span.b {
+span.blue {
   background-color: #bdffff;
 }
 
-span.p {
+span.purple {
   background-color: #e699ff;
 }
 
-span.g {
+span.green {
   background-color: #99eb99;
 }
 
-span.r {
+span.red {
   background-color: #ffbfbf;
 }
 
-p.b-so {
+p.blue-solid {
   font-style: regular;
   padding: 5px;
   border: 3px;
@@ -325,7 +325,7 @@ p.b-so {
   border-color: #37d6f7;
 }
 
-p.b-da {
+p.blue-dashed {
   font-style: regular;
   padding: 5px;
   border: 3px;
@@ -333,7 +333,7 @@ p.b-da {
   border-color: #37d6f7;
 }
 
-p.b-do {
+p.blue-dotted {
   font-style: regular;
   padding: 5px;
   border: 3px;
@@ -341,7 +341,7 @@ p.b-do {
   border-color: #37d6f7;
 }
 
-p.b-fu {
+p.blue-full {
   font-style: regular;
   color: white;
   padding: 5px;
@@ -412,7 +412,6 @@ Showcasing _Spacious-Light-Cupcake CSS_ from _SimplyClassyCSS_. Using the follow
 
 &gt; Creativity is intelligence having fun.
 
-
 ### Code style
 Sentence with `in-line code`.
 
@@ -435,12 +434,8 @@ __Table. Languages__
 
 ##### Styled Paragraphs and Sections
 
-&lt;p class=&quot;b-do&quot;&gt; I&apos;m a &lt;span class=&quot;b&quot;&gt;paragraph surrounded by a &lt;span class=&quot;r&quot;&gt;box&lt;/span&gt;&lt;/span&gt; and &lt;span class=&quot;y&quot;&gt; full&lt;span class=&quot;g&quot;&gt;-of-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;color&lt;/span&gt;&lt;/span&gt;!
+&lt;p class=&quot;blue-dotted&quot;&gt;I&apos;m a &lt;span class=&quot;blue&quot;&gt;paragraph surrounded by a&lt;/span&gt; &lt;span class=&quot;red&quot;&gt;box&lt;/span&gt; and &lt;span class=&quot;yellow&quot;&gt;full&lt;/span&gt;&lt;span class=&quot;green&quot;&gt;-of-&lt;/span&gt;&lt;span class=&quot;purple&quot;&gt;color&lt;/span&gt;!
 &lt;/p&gt;
-
-
-
-
 
 ###### Learn more
 
@@ -450,6 +445,5 @@ __Table. Languages__
 &lt;sub&gt; IdeaPlasm learning and information management tools and articles: [https://ideaplasm.com/](https://ideaplasm.com/)
 &lt;/sub&gt;</text>
 </richcontent>
-<font NAME="Monospaced" SIZE="18" ITALIC="false"/>
 </node>
 </map>
