@@ -1,6 +1,6 @@
 <map version="freeplane 1.9.8">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1696115451549" STYLE="bubble" MAX_WIDTH="20 cm" BORDER_WIDTH="5.1 px"><richcontent TYPE="NODE">
+<node FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1696134269127" STYLE="bubble" MAX_WIDTH="20 cm" BORDER_WIDTH="5.1 px"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -35,7 +35,7 @@
 </richcontent>
 <font NAME="Monospaced" SIZE="18" ITALIC="false"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" ID="ID_1514022981" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -297,23 +297,23 @@ sub {
 /* End of other elements */
 
 /* Beginning of custom highlighting, emphasizing */
-span.yellow {
+span.simply-yellow {
   background-color: #FFFF00;
 }
 
-span.blue {
+span.simply-blue {
   background-color: #bdffff;
 }
 
-span.purple {
+span.simply-purple {
   background-color: #e699ff;
 }
 
-span.green {
+span.simply-green {
   background-color: #99eb99;
 }
 
-span.red {
+span.simply-red {
   background-color: #ffbfbf;
 }
 
@@ -434,7 +434,7 @@ __Table. Languages__
 
 ##### Styled Paragraphs and Sections
 
-&lt;p class=&quot;blue-dotted&quot;&gt;I&apos;m a &lt;span class=&quot;blue&quot;&gt;paragraph surrounded by a&lt;/span&gt; &lt;span class=&quot;red&quot;&gt;box&lt;/span&gt; and &lt;span class=&quot;yellow&quot;&gt;full&lt;/span&gt;&lt;span class=&quot;green&quot;&gt;-of-&lt;/span&gt;&lt;span class=&quot;purple&quot;&gt;color&lt;/span&gt;!
+&lt;p class=&quot;blue-dotted&quot;&gt;I&apos;m a &lt;span class=&quot;simply-blue&quot;&gt;paragraph surrounded by a&lt;/span&gt; &lt;span class=&quot;simply-red&quot;&gt;box&lt;/span&gt; and &lt;span class=&quot;simply-yellow&quot;&gt;full&lt;/span&gt;&lt;span class=&quot;simply-green&quot;&gt;-of-&lt;/span&gt;&lt;span class=&quot;simply-purple&quot;&gt;color&lt;/span&gt;!
 &lt;/p&gt;
 
 ###### Learn more

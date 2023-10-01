@@ -242,23 +242,23 @@ sub {
 /* End of other elements */
 
 /* Beginning of custom highlighting, emphasizing */
-span.yellow {
+span.simply-yellow {
   background-color: #FFFF00;
 }
 
-span.blue {
+span.simply-blue {
   background-color: #bdffff;
 }
 
-span.purple {
+span.simply-purple {
   background-color: #e699ff;
 }
 
-span.green {
+span.simply-green {
   background-color: #99eb99;
 }
 
-span.red {
+span.simply-red {
   background-color: #ffbfbf;
 }
 
