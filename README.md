@@ -4,6 +4,8 @@ A collection of beautiful and classy CSS styles suitable for simple renderers su
 
 ![Showcase](docs/showcase-intro.png)
 
+[![Beautiful mindmap freeplane and SimplyClassyCSS. CSS and highlighting.](docs/beautiful-mindmaps-freeplane-simplyclassycss-790x762.png)](docs/beautiful-mindmaps-freeplane-simplyclassycss-790x1474.png)
+
 ## Features
 
 - Beauty
@@ -39,8 +41,6 @@ When using any of the __SimplyClassyCSS__ styles, text inside special `<span>` t
 The groovy scripts [**SpanHighlighter**](scripts/spanHighlighter.groovy) and [**BoxedParagraph**](scripts/boxedParagraph.groovy) wrap selected text in a `JTextComponent` (Java Swing) with the desired syntax.
 
 ##### Use in Freeplane
-
-![Beautiful mindmap freeplane and SimplyClassyCSS. CSS and highlighting.](docs/beautiful-mindmaps-freeplane-simplyclassycss-790x762.png)
 
 To use in freeplane: after setting up the CSS style, install the scripts, select the text you’d like to emphasize, and call the desired script: the appropriate tags will be inserted automatically. A brief explanation on how to use each script:
 
