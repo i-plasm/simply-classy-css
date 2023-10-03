@@ -38,6 +38,10 @@ When using any of the __SimplyClassyCSS__ styles, text inside special `<span>` t
 
 The groovy scripts [**SpanHighlighter**](scripts/spanHighlighter.groovy) and [**BoxedParagraph**](scripts/boxedParagraph.groovy) wrap selected text in a `JTextComponent` (Java Swing) with the desired syntax.
 
+##### Use in Freeplane
+
+![Beautiful mindmap freeplane and SimplyClassyCSS. CSS and highlighting.](docs/beautiful-mindmaps-freeplane-simplyclassycss-790x762.png)
+
 To use in freeplane: after setting up the CSS style, install the scripts, select the text you’d like to emphasize, and call the desired script: the appropriate tags will be inserted automatically. A brief explanation on how to use each script:
 
 __Freeplane Tip!__ You can use the [**SpanHighlighter**](scripts/spanHighlighter.groovy) script to ___automatically surround the text you'd like to highlight___ with `<span class="...">my_text</span>`. The default is the yellow color. You can change the color simply by changing the `class` attribute. The script gets installed in the menu `Format -> Highlight -> Span Highlighter`. _Suggestion: for quick access, assign the `ctrl + shift + H` shortcut to the script_. [CLICK HERE FOR THE FULL GUIDE](https://ideaplasm.com/2023/09/29/freeplane-highlighting-emphasizing)
