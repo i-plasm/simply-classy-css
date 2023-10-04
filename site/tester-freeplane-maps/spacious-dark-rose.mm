@@ -1,6 +1,6 @@
 <map version="freeplane 1.9.8">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1696134058969" STYLE="bubble" MAX_WIDTH="20 cm" BORDER_WIDTH="5.1 px"><richcontent TYPE="NODE">
+<node FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1696393303732" STYLE="bubble" MAX_WIDTH="20 cm" BORDER_WIDTH="5.1 px"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -399,51 +399,146 @@ p.blue-full {
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="0" RULE="ON_BRANCH_CREATION"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="plain/markdown">
-    <text># SimplyClassyCSS Showcase
-
-Showcasing _Spacious-Dark-Rose CSS_ from _SimplyClassyCSS_. Using the following Google fonts:
-
-- Montserrat 
-- Lora 
-- Open Sans Condensed
-
-## A Quote
-
-&gt; Creativity is intelligence having fun.
-
-### Code style
-Sentence with `in-line code`.
-
-```groovy
-// code block
-def name = &apos;Super user&apos;
-&quot;Hello, ${name}!&quot;
-```
-
-#### Tables
-
-__Table. Languages__
-
-| # | Language | Example |
-|--|--|--|
-| 1 | English | Do you speak English? I speak a little English |
-| 2 | French | Parlez-vous français? Je parle un peu de français |
-| 3 | German | Sprechen Sie Deutsch? Ich spreche ein bisschen Deutsch |
-| 4 | Italian | Parli italiano? Io parlo un po d&apos;italiano |
-
-##### Styled Paragraphs and Sections
-
-&lt;p class=&quot;blue-dotted&quot;&gt;I&apos;m a &lt;span class=&quot;simply-blue&quot;&gt;paragraph surrounded by a&lt;/span&gt; &lt;span class=&quot;simply-red&quot;&gt;box&lt;/span&gt; and &lt;span class=&quot;simply-yellow&quot;&gt;full&lt;/span&gt;&lt;span class=&quot;simply-green&quot;&gt;-of-&lt;/span&gt;&lt;span class=&quot;simply-purple&quot;&gt;color&lt;/span&gt;!
-&lt;/p&gt;
-
-###### Learn more
-
-&lt;sub&gt; How-tos and updates: [https://github.com/i-plasm/simply-classy-css](https://github.com/i-plasm/simply-classy-css)
-&lt;/sub&gt;
-
-&lt;sub&gt; IdeaPlasm learning and information management tools and articles: [https://ideaplasm.com/](https://ideaplasm.com/)
-&lt;/sub&gt;</text>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/markdown">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # SimplyClassyCSS Showcase
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Showcasing _Spacious-Dark-Rose CSS_ from _SimplyClassyCSS_. Using the following Google fonts:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - Montserrat
+    </p>
+    <p>
+      - Lora
+    </p>
+    <p>
+      - Open Sans Condensed
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ## A Quote
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &gt; Creativity is intelligence having fun.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ### Code style
+    </p>
+    <p>
+      Sentence with `in-line code`.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ```groovy
+    </p>
+    <p>
+      // code block
+    </p>
+    <p>
+      def name = 'Super user'
+    </p>
+    <p>
+      &quot;Hello, ${name}!&quot;
+    </p>
+    <p>
+      ```
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #### Tables
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      __Table. Languages__
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      | # | Language | Example |
+    </p>
+    <p>
+      |--|--|--|
+    </p>
+    <p>
+      | 1 | English | Do you speak English? I speak a little English |
+    </p>
+    <p>
+      | 2 | French | Parlez-vous français? Je parle un peu de français |
+    </p>
+    <p>
+      | 3 | German | Sprechen Sie Deutsch? Ich spreche ein bisschen Deutsch |
+    </p>
+    <p>
+      | 4 | Italian | Parli italiano? Io parlo un po d'italiano |
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ##### Styled Paragraphs and Sections
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p class=&quot;blue-dotted&quot;&gt;I'm a &lt;span class=&quot;simply-blue&quot;&gt;paragraph surrounded by a&lt;/span&gt; &lt;span class=&quot;simply-red&quot;&gt;box&lt;/span&gt; and &lt;span class=&quot;simply-yellow&quot;&gt;full&lt;/span&gt;&lt;span class=&quot;simply-green&quot;&gt;-of-&lt;/span&gt;&lt;span class=&quot;simply-purple&quot;&gt;color&lt;/span&gt;!
+    </p>
+    <p>
+      &lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ###### Learn more
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;sub&gt; How-tos and updates: [https://github.com/i-plasm/simply-classy-css](https://github.com/i-plasm/simply-classy-css)
+    </p>
+    <p>
+      &lt;/sub&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;sub&gt; IdeaPlasm learning and information management tools and articles: [https://ideaplasm.com/](https://ideaplasm.com/)
+    </p>
+    <p>
+      &lt;/sub&gt;
+    </p>
+  </body>
+</html>
 </richcontent>
 </node>
 </map>
