@@ -3,9 +3,9 @@
  * Wraps the selected text in a JTextComponent with the desired syntax to make use of the SimplyClassyCSS
  * special tags and classes for highlighting and emphasizing text.
  * SpanHighlighter automatically surrounds the text you'd like to highlight with 
- * <span class="...">my_text</span>
- * The default is yellow (`yellow`). You can modify the color simply by changing the `class` attribute (see the
- * "Syntax" table for the options - for instance `yellow`, `blue`, etc.).
+ * <span class="simply-yellow">my_text</span>
+ * The default is yellow (`simply-yellow`). You can modify the color simply by changing the `class` attribute (see the
+ * "Syntax" table for the options - for instance `simply-yellow`, `simply-blue`, etc.).
  * 
  * More information on usage: https://github.com/i-plasm/simply-classy-css 
 */
@@ -33,7 +33,7 @@ def static void highlight() {
             return
         }
 
-        editor.replaceSelection("<span class=\"yellow\">" + editor.getSelectedText() + "</span>")
+        editor.replaceSelection("<span class=\"simply-yellow\">" + editor.getSelectedText() + "</span>")
 
 
     }

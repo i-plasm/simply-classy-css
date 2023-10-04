@@ -12,7 +12,7 @@ A collection of beautiful and classy CSS styles suitable for simple renderers su
 - Readability
 - Fonts chosen for the best displays in Java Swing
 - Variety of styles and color schemes. Light and dark modes
-- Extra 1: special tag classes for highlighting and emphasizing text
+- Extra 1: special CSS classes for highlighting and emphasizing text
 - Extra 2: groovy scripts for automatic highlighting/emphasizing
 
 ## Usage
@@ -44,9 +44,9 @@ The groovy scripts [**SpanHighlighter**](scripts/spanHighlighter.groovy) and [**
 
 To use in freeplane: after setting up the CSS style ([see guide here](https://ideaplasm.com/2023/09/29/freeplane-highlighting-emphasizing)), install the scripts, select the text you’d like to emphasize, and call the desired script: the appropriate tags will be inserted automatically. A brief explanation on how to use each script:
 
-__Freeplane Tip!__ You can use the [**SpanHighlighter**](scripts/spanHighlighter.groovy) script to ___automatically surround the text you'd like to highlight___ with `<span class="...">my_text</span>`. The default is the yellow color. You can change the color simply by changing the `class` attribute. The script gets installed in the menu `Format -> Highlight -> Span Highlighter`. _Suggestion: for quick access, assign the `ctrl + shift + H` shortcut to the script_. [CLICK HERE FOR THE FULL GUIDE](https://ideaplasm.com/2023/09/29/freeplane-highlighting-emphasizing)
+__Freeplane Tip!__ You can use the [**SpanHighlighter**](scripts/spanHighlighter.groovy) script to ___automatically surround the text you'd like to highlight___ with `<span class="simply-yellow">my_text</span>`. The default is the yellow color. You can change the color simply by changing the `class` attribute. The script gets installed in the menu `Format -> Highlight -> Span Highlighter`. _Suggestion: for quick access, assign the `ctrl + shift + H` shortcut to the script_. [CLICK HERE FOR THE FULL GUIDE](https://ideaplasm.com/2023/09/29/freeplane-highlighting-emphasizing)
 
-__Freeplane Tip!__ You can use the [**BoxedParagraph**](scripts/boxedParagraph.groovy) script to ___automatically surround the paragraph you'd like to enclose in a box___ with `<p class="...">my_paragraph</p>`. The default is blue dotted box. You can change it by modifying the `class` attribute.  The script gets installed in the menu `Format -> Highlight -> Boxed Paragraph`. _Suggestion: for quick access, assign the `ctrl + shift + P` shortcut to the script_. [CLICK HERE FOR THE FULL GUIDE](https://ideaplasm.com/2023/09/29/freeplane-highlighting-emphasizing)
+__Freeplane Tip!__ You can use the [**BoxedParagraph**](scripts/boxedParagraph.groovy) script to ___automatically surround the paragraph you'd like to enclose in a box___ with `<p class="blue-dotted">my_paragraph</p>`. The default is blue dotted box. You can change it by modifying the `class` attribute.  The script gets installed in the menu `Format -> Highlight -> Boxed Paragraph`. _Suggestion: for quick access, assign the `ctrl + shift + P` shortcut to the script_. [CLICK HERE FOR THE FULL GUIDE](https://ideaplasm.com/2023/09/29/freeplane-highlighting-emphasizing)
 
 ## Screenshots
 

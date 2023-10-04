@@ -120,20 +120,43 @@ body, h1, h2, h3, h4, h5 {
       </div>
     </div>
 
+
     <!-- Usage section -->
     <div
       class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32"
       id="usage">
 
       <h2>Usage</h2>
-      <p>
-        <em>SimplyClassyCSS</em> features different styles (e.g
-        “Spacious”).
-      </p>
-      <p>For each style, different color schemes may be supported
-        (e.g “Standard”, “Gruvbox”).</p>
-      <p>For each color scheme, light or dark mode (or both) are
-        supported.</p>
+      <div class="w3-content w3-center" style="max-width: 600px">
+        <p>
+          <em>SimplyClassyCSS</em> is a collection of beautiful and
+          classy CSS styles suitable for simple renderers such as Java
+          Swing's. Designed for beauty and readability.
+        </p>
+        <p>
+          <em>SimplyClassyCSS</em> is also conceived to be
+          highlighting-friendly: it features special CSS classes for
+          highlighting and emphasizing text. Thus, with a HTML syntax
+          such as
+          <code>&lt;span
+            class="simply-yellow"&gt;my_text&lt;/span&gt;</code>
+          your text is highlighted. Other classes for basic colors are
+          defined:
+          <code>simply-blue</code>
+          ,
+          <code>simply-green</code>
+          , etc.
+        </p>
+        <p>
+          <em>SimplyClassyCSS</em> features different styles (e.g
+          “Spacious”).
+        </p>
+        <p>For each style, different color schemes may be supported
+          (e.g “Standard”, “Gruvbox”).</p>
+        <p>For each color scheme, light or dark mode (or both) are
+          supported.</p>
+      </div>
+
 
       <div class="w3-content w3-justify" style="max-width: 600px">
 
@@ -205,11 +228,11 @@ body, h1, h2, h3, h4, h5 {
                   Tip!</strong> You can use the <a
                 href="scripts/spanHighlighter.groovy"><strong>SpanHighlighter</strong></a>
                 script to <strong><em>automatically
-                    surround the text you’d like to highlight</em></strong> with <code>&lt;span
-                  class="..."&gt;my_text&lt;/span&gt;</code>. The default is
-                the yellow color. You can change the color simply by
-                changing the <code>class</code> attribute. The script
-                gets installed in the menu <code>Format ->
+                    surround the text you’d like to highlight</em></strong> with <strong><code>&lt;span
+                    class="simply-yellow"&gt;my_text&lt;/span&gt;</code></strong>. The
+                default is the yellow color. You can change the color
+                simply by changing the <code>class</code> attribute. The
+                script gets installed in the menu <code>Format ->
                   Highlight -> Span Highlighter</code>. <em>Suggestion:
                   for quick access, assign the <code>ctrl + shift
                     + H</code> shortcut to the script. <a
@@ -233,13 +256,14 @@ body, h1, h2, h3, h4, h5 {
                 href="scripts/boxedParagraph.groovy"><strong>BoxedParagraph</strong></a>
                 script to <strong><em>automatically
                     surround the paragraph you’d like to enclose in a
-                    box</em></strong> with <code>&lt;p
-                  class="..."&gt;my_paragraph&lt;/p&gt;</code>. The default is
-                blue dotted box. You can change it by modifying the <code>class</code>
-                attribute. The script gets installed in the menu <code>Format
-                  -> Highlight -> Boxed Paragraph</code>. <em>Suggestion:
-                  for quick access, assign the <code>ctrl + shift
-                    + P</code> shortcut to the script. <a
+                    box</em></strong> with <strong><code>&lt;p
+                    class="blue-dotted"&gt;my_paragraph&lt;/p&gt;</code></strong>. The
+                default is blue dotted box. You can change it by
+                modifying the <code>class</code> attribute. The script
+                gets installed in the menu <code>Format ->
+                  Highlight -> Boxed Paragraph</code>. <em>Suggestion: for
+                  quick access, assign the <code>ctrl + shift + P</code>
+                  shortcut to the script. <a
                   href="https://ideaplasm.com/2023/09/29/freeplane-highlighting-emphasizing">CLICK
                     HERE FOR THE FULL GUIDE</a>
               </em></li>
@@ -275,7 +299,7 @@ body, h1, h2, h3, h4, h5 {
             <li>Fonts chosen for the best displays in Java Swing</li>
             <li>Variety of styles and color schemes. Light and dark
               modes</li>
-            <li>Extra 1: special tag classes for highlighting and
+            <li>Extra 1: special CSS classes for highlighting and
               emphasizing text</li>
             <li>Extra 2: groovy scripts for automatic
               highlighting/emphasizing</li>
