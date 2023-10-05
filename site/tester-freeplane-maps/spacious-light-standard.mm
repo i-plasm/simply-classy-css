@@ -240,7 +240,7 @@ blockquote {
 
 pre, code {
   background-color: #F0EAE1;
-  font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace;
+  font-family: monospace;
 }
 
 /* End of colors and font styling */
