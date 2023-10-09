@@ -243,23 +243,23 @@ sub {
 
 /* Beginning of custom highlighting, emphasizing */
 span.simply-yellow {
-  background-color: #c78f1f;
+  background-color: #664d00;
 }
 
 span.simply-blue {
   background-color: #000099;
 }
 
-span.simply-purple {
-  background-color: #9900cc;
+span.simply-magenta {
+  background-color: #730099;
 }
 
 span.simply-green {
-  background-color: #009900;
+  background-color: #006600;
 }
 
 span.simply-red {
-  background-color: #ff0000;
+  background-color: #9e2e2e;
 }
 
 p.blue-solid {
