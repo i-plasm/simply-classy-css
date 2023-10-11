@@ -50,7 +50,7 @@ __Freeplane Tip!__ You can use the [**BoxedParagraph**](scripts/boxedParagraph.g
 
 ## Screenshots
 
-__Check the complete Gallery at <a href="https://i-plasm.github.io/simply-classy-css/site/gallery.html">the SimplyClassyCSS website</a>__
+__Check the complete Gallery on <a href="https://i-plasm.github.io/simply-classy-css/site/gallery.html">the SimplyClassyCSS website</a>__
 
 ## License
 
